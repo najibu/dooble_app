@@ -43,6 +43,10 @@ group :test do
 	gem 'capybara'
 end
 
+gem 'bootstrap-sass', '~>3.3.4.1'
+
+gem 'autoprefixer-rails', '~>5.2.0'
+
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> in views
   gem 'web-console', '~> 2.0'
